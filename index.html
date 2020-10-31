@@ -126,6 +126,9 @@
 			display: block;
 			visibility: visible;
 		}
+		.link-ref-popUp{
+			display: block; margin: 0; padding: 2px;
+		}
 		
 
 </style>
@@ -358,13 +361,13 @@
 
 		shw_popup_notinterest.addEventListener('click', function(){
 			popup_notinterest.classList.add('display-it');
-            modalBody.innerHTML = "Thank you for your feedback. You are now being unsubscribed from our mailing list. It may take up to 48 Hours for your request to process. If this was a mistake, you are always	 welcome to register by clicking here. <a target='_blank' href='https://www.dealtobook.com/home-en' class='link-ref' style='display: block; margin: 0; padding: 2px;'>www.dealtobook.com/providers-Reg/</a>"
+            modalBody.innerHTML = "Thank you for your feedback. You are now being unsubscribed from our mailing list. It may take up to 48 Hours for your request to process. If this was a mistake, you are always	 welcome to register by clicking here. <a target='_blank' href='https://www.dealtobook.com/home-en' class='link-ref link-ref-popUp'>www.dealtobook.com/providers-Reg/</a>"
             modalTitle.innerHTML = "not intersted";
 		});
 
         shw_popup_unsub.addEventListener('click', function(){
 			popup_notinterest.classList.add('display-it');
-            modalBody.innerHTML = "Thankyou for your feedback. You are now being unsubscribed from our mailing list. It mayntake up to 48 Hours for your request to process. If this was a mistake, you are always welcome to register by clicking here. <a target='_blank' href='https://www.dealtobook.com/home-en' class='link-ref' style='display: block; margin: 0; padding: 2px;'>www.dealtobook.com/providers-Reg/</a>"
+            modalBody.innerHTML = "Thankyou for your feedback. You are now being unsubscribed from our mailing list. It mayntake up to 48 Hours for your request to process. If this was a mistake, you are always welcome to register by clicking here. <a target='_blank' href='https://www.dealtobook.com/home-en' class='link-ref link-ref-popUp'>www.dealtobook.com/providers-Reg/</a>"
             modalTitle.innerHTML = "Unsubscribe";
 		});
 		shw_popup_stayConnect.addEventListener('click', function(){
